@@ -64,7 +64,7 @@ function App() {
             на борту уникального лайнера, и вам не захочется соглашаться на другие варианты. </p>
           <div className='lg:flex justify-around mx-auto w-[70%] gap-[200px] items-center'>
             <div>
-              <p> <span className='font-extrabold text-6xl bg1'>7250</span>км</p>
+              <p> <span className='font-extrabold lg:text-6xl text-3xl bg1'>7250</span>км</p>
             </div>
             <div className='lg:w-[35%]'>
               <p> <span className='font-black'>дальность полета</span> - что позволяет долететь до желаемого пункта назначения без пересадок</p>
@@ -299,9 +299,9 @@ function App() {
       <footer className='lg:flex lg:w-[70%] mx-[20px] lg:mx-auto justify-around items-center mt-[50px]'>
         <div>
           <img src={img17} alt="" />
-          <div className='flex  gap-[20px]'>
+          <div className='flex justify-around gap-[20px]'>
             <div>
-              <p className='text-3xl text-blue-300'>Информация</p> <br /><br />
+              <p className='lg:text-3xl text-blue-300'>Информация</p> <br /><br />
               <p>Контакты</p> <br />
               <p>О компании</p> <br />
               <p>Наши новости</p> <br />
@@ -310,7 +310,7 @@ function App() {
               <p>Отзывы</p>
             </div>
             <div>
-              <p className='text-3xl text-blue-300'>Контакты</p><br /><br />
+              <p className='lg:text-3xl text-blue-300'>Контакты</p><br /><br />
               <img src={img16} alt="" /> <br />
               <p>+ 7 (495) 374 77 88</p>
               <p>Москва, Лесная 8а <br />
