@@ -104,7 +104,7 @@ function App() {
           <img src={img4} alt="" />
         </div>
         <div className='bg-[#3E403B] text-white '>
-          <img src={img5} alt="" className='absolute z-10 lg:ml-[250px] w-[250px]' />
+          <img src={img5} alt="" className='absolute z-10 lg:ml-[250px] ml-[20px] lg:w-[50%] w-[70%]' />
           <div className='lg:w-[70%] mx-[20px]  lg:mx-auto'>
             <div className='absolute z-20 '>
               <p className='font-black text-3xl pt-[50px] mb-[50px]'>Здесь Moët & Chandon, гаджеты Apple <br />

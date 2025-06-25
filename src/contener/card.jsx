@@ -136,8 +136,8 @@ const Card = () => {
         <div>
             <div className='lg:flex justify-around items-center my-[30px]'>
                 <input className='lg:w-[40%] w-[80%] m-[20px] lg:m-0  p-[10px] border rounded-[5px]' value={Search} onChange={(e) => setsearch(e.target.value)} type="text" placeholder='Search....' />
-                <div className='flex justify-around items-center'>
-                <select className='lg:w-[10%] border p-[10px] text-center rounded-[5px]' value={SelectAll} onChange={(e) => setSelectAll(e.target.value)}>
+                <div className='flex justify-around lg:gap-[30px] items-center'>
+                <select className='lg:w-[40%] border p-[5px] text-center rounded-[5px]' value={SelectAll} onChange={(e) => setSelectAll(e.target.value)}>
                     <option value="">All</option>
                     <option value="true">Active</option>
                     <option value="false">Inactive</option>
